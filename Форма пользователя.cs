@@ -19,6 +19,7 @@ namespace avtorisation
                 InitializeComponent();
             }
         int k = 1;
+        int a = 0; //проверка
         private void Output()
         {
             using (Model_db db = new Model_db())
